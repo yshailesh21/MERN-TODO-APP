@@ -44,7 +44,7 @@ router.patch("/:id", async (req, res) => {
         }
 
 
-        const updateTodo = await todo.save();
+        const updatedTodo = await todo.save();
         res.json(updatedTodo);
     } catch (error) {
         res.status(400).json({ message: err.message });
