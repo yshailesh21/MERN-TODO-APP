@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json())
 //app.use(cors());
 
-app.use("/api/todos", todoRoutes)
+app.use("/api/todos", todoRoutes);
 const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "/frontend/dist")));
