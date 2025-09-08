@@ -1,0 +1,1 @@
+Deploy a ToDo List application using the MERN stack (MongoDB, Express.js, React, Node.js) combined with the power of Tailwind CSS for beautiful, responsive UI design. From setting up the backend API to creating a dynamic React frontend
